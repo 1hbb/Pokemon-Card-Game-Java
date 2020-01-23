@@ -19,6 +19,14 @@
 - THE WINNER GETS 5 POINTS.
 - HIGH DAMAGE POINTS CARD WINS.
 
+#######SCREENSHOTS##########
+
+
+![pokemon1](https://user-images.githubusercontent.com/56535601/73006711-1de86f80-3e1c-11ea-9e6d-893ccdaf7d2d.PNG)
+
+**********************************************************************************************************
+
+![pokemon2](https://user-images.githubusercontent.com/56535601/73006723-2640aa80-3e1c-11ea-8640-322f6829f9c0.PNG)
 
 
 
