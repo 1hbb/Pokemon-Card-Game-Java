@@ -293,16 +293,16 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
             //           System.out.println("hp "+hp);
             //          System.out.println("hp1 "+hp1);
             
-        konum[0]="../pokemonOyunu/src/pokemonoyunu/img/pikachu.jpg";
-        konum[1]="../pokemonOyunu/src/pokemonoyunu/img/balbasaur.jpg";
-        konum[2]="../pokemonOyunu/src/pokemonoyunu/img/Charmander.jpg";
-        konum[3]="../pokemonOyunu/src/pokemonoyunu/img/Squirtle.jpg";
-        konum[4]="../pokemonOyunu/src/pokemonoyunu/img/Zubat.jpg";
-        konum[5]="../pokemonOyunu/src/pokemonoyunu/img/Psyduck.jpg";
-        konum[6]="../pokemonOyunu/src/pokemonoyunu/img/Snorlax.jpg";
-        konum[7]="../pokemonOyunu/src/pokemonoyunu/img/Butterfree.jpg";
-        konum[8]="../pokemonOyunu/src/pokemonoyunu/img/Jigglypuff.jpg";
-        konum[9]="../pokemonOyunu/src/pokemonoyunu/img/Meowth.jpg";
+        konum[0]="./src/pokemonoyunu/img/pikachu.jpg";
+        konum[1]="./src/pokemonoyunu/img/balbasaur.jpg";
+        konum[2]="./src/pokemonoyunu/img/Charmander.jpg";
+        konum[3]="./src/pokemonoyunu/img/Squirtle.jpg";
+        konum[4]="./src/pokemonoyunu/img/Zubat.jpg";
+        konum[5]="./src/pokemonoyunu/img/Psyduck.jpg";
+        konum[6]="./src/pokemonoyunu/img/Snorlax.jpg";
+        konum[7]="./src/pokemonoyunu/img/Butterfree.jpg";
+        konum[8]="./src/pokemonoyunu/img/Jigglypuff.jpg";
+        konum[9]="./src/pokemonoyunu/img/Meowth.jpg";
         insanKart1.setIcon(new javax.swing.ImageIcon(konum[insan.kartListesi[0]]));
         insanKart2.setIcon(new javax.swing.ImageIcon(konum[insan.kartListesi[1]]));
         insanKart3.setIcon(new javax.swing.ImageIcon(konum[insan.kartListesi[2]]));
@@ -796,16 +796,16 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
            
             
          
-         konum[0]="../pokemonOyunu/src/pokemonoyunu/img/pikachu.jpg";
-        konum[1]="../pokemonOyunu/src/pokemonoyunu/img/balbasaur.jpg";
-        konum[2]="../pokemonOyunu/src/pokemonoyunu/img/Charmander.jpg";
-        konum[3]="../pokemonOyunu/src/pokemonoyunu/img/Squirtle.jpg";
-        konum[4]="../pokemonOyunu/src/pokemonoyunu/img/Zubat.jpg";
-        konum[5]="../pokemonOyunu/src/pokemonoyunu/img/Psyduck.jpg";
-        konum[6]="../pokemonOyunu/src/pokemonoyunu/img/Snorlax.jpg";
-        konum[7]="../pokemonOyunu/src/pokemonoyunu/img/Butterfree.jpg";
-        konum[8]="../pokemonOyunu/src/pokemonoyunu/img/Jigglypuff.jpg";
-        konum[9]="../pokemonOyunu/src/pokemonoyunu/img/Meowth.jpg";
+        konum[0]="./src/pokemonoyunu/img/pikachu.jpg";
+        konum[1]="./src/pokemonoyunu/img/balbasaur.jpg";
+        konum[2]="./src/pokemonoyunu/img/Charmander.jpg";
+        konum[3]="./src/pokemonoyunu/img/Squirtle.jpg";
+        konum[4]="./src/pokemonoyunu/img/Zubat.jpg";
+        konum[5]="./src/pokemonoyunu/img/Psyduck.jpg";
+        konum[6]="./src/pokemonoyunu/img/Snorlax.jpg";
+        konum[7]="./src/pokemonoyunu/img/Butterfree.jpg";
+        konum[8]="./src/pokemonoyunu/img/Jigglypuff.jpg";
+        konum[9]="./src/pokemonoyunu/img/Meowth.jpg";
          
          insanKart1.setVisible(false);
          insanKart2.setVisible(false);
