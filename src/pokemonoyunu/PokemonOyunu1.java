@@ -88,7 +88,7 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(2000, 1000));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jCheckBox3.setText("insan-pc");
+        jCheckBox3.setText("HUMAN-COMPUTER");
         jCheckBox3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox3ActionPerformed(evt);
@@ -96,7 +96,7 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
         });
         jPanel1.add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 0, 132, -1));
 
-        jButton2.setText("Kart Çek");
+        jButton2.setText("GIVE CARD");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -106,7 +106,7 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1237, 180, 200, 270));
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1476, 180, 200, 270));
 
-        jTextField1.setText("Oyuncu");
+        jTextField1.setText("PLAYER");
         jTextField1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,7 +115,7 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
         });
         jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 60, 110, -1));
 
-        jTextField2.setText("Bilgisayar");
+        jTextField2.setText("COMPUTER");
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
@@ -160,7 +160,7 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
         });
         jPanel1.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1290, 120, 67, -1));
 
-        jCheckBox1.setText("Pc-Pc");
+        jCheckBox1.setText("COMPUTER-COMPUTER");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox1ActionPerformed(evt);
@@ -168,7 +168,7 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
         });
         jPanel1.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 0, -1, -1));
 
-        jButton1.setText("Oyna");
+        jButton1.setText("PLAY");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -183,10 +183,10 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
         jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 290, 160, 220));
 
         jTextField5.setForeground(new java.awt.Color(255, 51, 51));
-        jTextField5.setText("Puan Durumu");
+        jTextField5.setText("SCOR");
         jPanel1.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1400, 0, 110, -1));
 
-        jTextField6.setText("Blgisayar1");
+        jTextField6.setText("COMPUTER1");
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField6ActionPerformed(evt);
@@ -194,7 +194,7 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
         });
         jPanel1.add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 110, -1));
 
-        jTextField7.setText("Bilgisayar");
+        jTextField7.setText("COMPUTER2");
         jTextField7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField7ActionPerformed(evt);
@@ -205,10 +205,15 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
         jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 560, 160, 220));
         jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(1320, 560, 160, 220));
 
-        jTextField8.setText("Oyuncu 1");
+        jTextField8.setText("PLAYER");
         jPanel1.add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 860, 90, -1));
 
-        jTextField9.setText("Bilgisayar");
+        jTextField9.setText("COMPUTER");
+        jTextField9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField9ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1080, 860, 80, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -227,6 +232,8 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 910, Short.MAX_VALUE)
                 .addContainerGap())
         );
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("../pokemonOyunu/src/pokemonoyunu/img/Background.jpg"));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -467,7 +474,7 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
          jLabel1.setIcon(new javax.swing.ImageIcon());
          jLabel2.setIcon(new javax.swing.ImageIcon());
          
-        jTextField1.setText("Oyuncu1");
+        jTextField1.setText("PLAYER");
         
         
         jTextField8.setVisible(true);
@@ -948,7 +955,7 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
          
          Sayac=0;
          
-          jTextField1.setText("Bilgisayar1");
+          jTextField1.setText("COMPUTER1");
           
           
           SonSkorPc=0;
@@ -1123,6 +1130,10 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField6ActionPerformed
 
+    private void jTextField9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField9ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1283,6 +1294,9 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
             }
         });
     }
+    
+    
+    
     
     
     
