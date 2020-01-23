@@ -233,8 +233,6 @@ public class PokemonOyunu1 extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("../pokemonOyunu/src/pokemonoyunu/img/Background.jpg"));
-
         pack();
     }// </editor-fold>//GEN-END:initComponents
 

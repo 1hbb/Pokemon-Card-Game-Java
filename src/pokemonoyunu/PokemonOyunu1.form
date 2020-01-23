@@ -47,9 +47,6 @@
           <Dimension value="[2000, 1000]"/>
         </Property>
       </Properties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jLabel1.setIcon(new javax.swing.ImageIcon(&quot;../pokemonOyunu/src/pokemonoyunu/img/Background.jpg&quot;));"/>
-      </AuxValues>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
         <Property name="useNullLayout" type="boolean" value="false"/>
