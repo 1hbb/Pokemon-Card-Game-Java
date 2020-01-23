@@ -19,7 +19,6 @@
 - THE WINNER GETS 5 POINTS.
 - HIGH DAMAGE POINTS CARD WINS.
 
-https://github.com/1fobofobi/Pokemon_Card_Game--JAVA/blob/master/src/pokemonoyunu/img/Butterfree.jpg
 
 
 
