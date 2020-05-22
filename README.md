@@ -1,6 +1,6 @@
-"# Pokemon_Card_Game--JAVA" 
+# POKEMON CARD GAME WITH JAVA # 
 
-##POKEMON CARD GAME##
+#POKEMON CARD GAME#
 
 1. OPEN PROJECT WITH Netbeans IDE.(tested in version 11.1)
 2. Then run "PokemonOyunu1.java".
